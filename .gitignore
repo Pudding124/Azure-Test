@@ -16,3 +16,4 @@ gen/
 .classpath  
 .project  
 .DS_Store
+test-results.xml
