@@ -9,8 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "-": "0.0.1",
-    "mocha": "^8.2.1",
-    "save-dev": "0.0.1-security"
+    "mocha": "^8.2.1"
   }
 }
