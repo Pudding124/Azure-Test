@@ -1,9 +1,13 @@
 package com.mars.tester.mars;
 
+
+import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-import junit.framework.Assert;
+import com.mars.tester.mars.service.Function;
 
+@SpringBootTest
 public class FunctionTest {
 
 	@Test
