@@ -7,6 +7,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
 	@RequestMapping("/")
     public String home() {
-        return "<h1>Hello, World!</h1>";
+        return "<html>"
+        		+ "<head>"
+        		+ "<title>Home Page</title>"
+        		+ "</head>"
+        		+ "<body>"
+        		+ "<h1>Hello, World!</h1>"
+        		+ "</body>"
+        		+ "</html>";
     }
 }
